@@ -145,6 +145,7 @@ button {
     white-space: normal;
     text-align: center;
     line-height: 1.2;
+    text-transform: uppercase;
 }
 
 .btn:focus {
@@ -1118,8 +1119,8 @@ button {
     align-items: center;
     gap: 0.5rem;
     font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.75rem;
+    font-weight: 800;
     color: var(--color-white);
     transition: color 0.2s;
 }
@@ -1447,6 +1448,7 @@ button {
     min-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-transform: uppercase;
 }
 
 .sticky-cta-btn:hover {
@@ -1622,5 +1624,14 @@ button {
 
     .cta-form-col {
         width: 50%;
+    }
+
+    .cta-phone-link {
+        font-size: 3rem;
+    }
+
+    .cta-phone-link svg {
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
